@@ -23,6 +23,13 @@ const Social = () => {
         target="_blank">
         <i class="uil uil-github-alt"></i>
       </a>
+
+      <a
+        href="https://www.upwork.com/freelancers/~014d26d9cc42bfd63f"
+        className="home__social-icon"
+        target="_blank">
+        <i class="bx bxl-upwork"></i>
+      </a>
     </div>
   );
 };

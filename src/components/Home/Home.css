@@ -23,6 +23,9 @@
 .home__title {
   font-size: 3rem;
 }
+.home__title::first-letter {
+  font-size: 3.5rem;
+}
 .home__hand {
   width: 38px;
   height: 38px;
