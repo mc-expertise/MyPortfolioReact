@@ -1,10 +1,9 @@
 import React from "react";
-
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Hi ! there
+        Hi There
         <svg
           width="36"
           height="36"
@@ -46,8 +45,8 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Front End Developer</h3>
       <p className="home__description">
-        I'm Mohamed Chouati. I code & design beautifully things. I'm a
-        passionate what I do 💻
+        I'm Mohamed Chouati. I build the Front End of websites and web
+        applications. I'm a passionate what I do 💻
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
