@@ -17,7 +17,7 @@ const Designer = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">FontAwesome</h3>
+              <h3 className="skills__name">Redux</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Designer = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">Canva</h3>
+              <h3 className="skills__name">Jest</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
