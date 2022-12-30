@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-const Header = () => {
+function Header() {
   /*=============== Change Box Color Header ===============*/
   window.addEventListener("scroll", () => {
     const header = document.querySelector(".header");
@@ -15,7 +15,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <div className="nav__logo">Moha - Code</div>
+        <div className="nav__logo">
+          <div className="nav__logo-img"></div>Moha - Code
+        </div>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
@@ -91,12 +93,13 @@ const Header = () => {
             class="uil uil-times nav__close"
             onClick={() => showMenu(!Toggle)}></i>
         </div>
+        {/* <DarkMode /> */}
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i class="uil uil-apps"></i>
         </div>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;

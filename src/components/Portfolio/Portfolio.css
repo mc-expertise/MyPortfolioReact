@@ -1,4 +1,5 @@
 .portfolio__container {
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
 }
 .portfolio__content {
   position: relative;
@@ -7,6 +8,7 @@
   padding: 1rem;
   border-radius: 0.5rem;
   display: flex;
+  /* flex-direction: column; */
   column-gap: 3rem;
   align-items: center;
 }
@@ -39,7 +41,8 @@
 }
 
 .portfolio__description-title {
-  margin-bottom: var(--mb-1);
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-0-75);
 }
 
 .portfolio__description-para {
@@ -146,8 +149,15 @@
   .portfolio__content {
     flex-direction: column;
   }
+
   .portfolio__button {
     margin-bottom: var(--mb-1);
+  }
+
+  .portfolio__content-overview {
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 0.75rem;
+    width: 100%;
   }
 }
 

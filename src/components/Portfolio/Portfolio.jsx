@@ -1,43 +1,50 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Portfolio.css";
-import imgfit from "../../asset/FitClub.png";
-import imgfitM from "../../asset/FitClubMobile.png";
+// import imgfit from "../../asset/FitClub.png";
+// import imgfitM from "../../asset/FitClubMobile.png";
 import imgfitC from "../../asset/fitcar.png";
-import imgho from "../../asset/HooBank.png";
-import imghoM from "../../asset/HooBankMobile.png";
+// import imgho from "../../asset/HooBank.png";
+// import imghoM from "../../asset/HooBankMobile.png";
 import imghoC from "../../asset/hooC.png";
-import imgthree from "../../asset/Three.png";
-import imgthreeC from "../../asset/ThreeC.png";
-import imgthreeM from "../../asset/ThreeMobile.png";
+// import imgthree from "../../asset/Three.png";
+// import imgthreeC from "../../asset/ThreeC.png";
+// import imgthreeM from "../../asset/ThreeMobile.png";
+import imgbar from "../../asset/bar.png";
+import ProductImg from "../../asset/PageProduct.png";
 const Portfolio = () => {
-  const [Toggle, SetToggle] = useState(0);
-  const toggleTap = (index) => {
-    SetToggle(index);
-  };
-  const [swich, setSwich] = useState(0);
-  const swichTab = (index) => {
-    setSwich(index);
-  };
+  // => Demo
+  // const [Toggle, SetToggle] = useState(0);
+  // const toggleTap = (index) => {
+  //   SetToggle(index);
+  // };
+  // const [swich, setSwich] = useState(0);
+  // const swichTab = (index) => {
+  //   setSwich(index);
+  // };
   return (
     <section className="portfolio section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">Most recent work</span>
       <div className="portfolio__container container grid">
         <div className="portfolio__content">
-          <div>
+          <div className="portfolio__content-overview">
             <img src={imgfitC} alt="" className="portfolio__img" />
             <h3 className="portfolio__title">Fit Club Web</h3>
-            <span className="portfolio__button" onClick={() => toggleTap(1)}>
+            <a
+              href="https://github.com/MohamedCh99/FitClub_WebSite"
+              className="portfolio__button"
+              target={"_blank"}
+              rel="noreferrer">
               Demo
               <i className="uil uil-arrow-right portfolio__button-icon"></i>
-            </span>
+            </a>
           </div>
           <div className="portfolio__description">
             <div className="portfolio__description-overview">
               <h3 className="portfolio__description-title">Project Overview</h3>
               <p className="portfolio__description-para">
-                Fit Club is a platform for people to join the community of their
-                favorite youtube channel.
+                Fit Club Site of bodybuilding and fitness that sells programs to
+                have the ideal body during all your life!
               </p>
             </div>
             <div className="portfolio__description-tools">
@@ -47,7 +54,6 @@ const Portfolio = () => {
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
-                <li>SASS</li>
                 <li>Git</li>
                 <li>Github</li>
               </ul>
@@ -56,31 +62,33 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio__content">
-          <div>
+          <div className="portfolio__content-overview">
             <img src={imghoC} alt="" className="portfolio__img" />
             <h3 className="portfolio__title">HooBank Web</h3>
-            <span className="portfolio__button" onClick={() => toggleTap(2)}>
+            <a
+              href="https://github.com/MohamedCh99/WebSiteBank"
+              className="portfolio__button"
+              target="_blank"
+              rel="noreferrer">
               Demo{" "}
               <i className="uil uil-arrow-right portfolio__button-icon"></i>
-            </span>
+            </a>
           </div>
 
           <div className="portfolio__description">
             <div className="portfolio__description-overview">
               <h3 className="portfolio__description-title">Project Overview</h3>
               <p className="portfolio__description-para">
-                Fit Club is a platform for people to join the community of their
-                favorite youtube channel.
+                Hoo Bank Site represents the new method of payment
               </p>
             </div>
             <div className="portfolio__description-tools">
               <h3 className="portfolio__description-title">Tools Used</h3>
               <ul className="ul">
                 <li>HTML</li>
-                <li>CSS</li>
+                <li>Tailwind</li>
                 <li>JavaScript</li>
                 <li>React</li>
-                <li>SASS</li>
                 <li>Git</li>
                 <li>Github</li>
               </ul>
@@ -89,21 +97,25 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio__content">
-          <div>
-            <img src={imgthreeC} alt="" className="portfolio__img" />
-            <h3 className="portfolio__title"> Web</h3>
-            <span className="portfolio__button" onClick={() => toggleTap(3)}>
-              Demo{" "}
+          <div className="portfolio__content-overview">
+            <img src={ProductImg} alt="" className="portfolio__img" />
+            <h3 className="portfolio__title">Product Page</h3>
+            <a
+              href="https://github.com/MohamedCh99/Product-Page"
+              className="portfolio__button"
+              target="_blank"
+              rel="noreferrer">
+              Demo
               <i className="uil uil-arrow-right portfolio__button-icon"></i>
-            </span>
+            </a>
           </div>
 
           <div className="portfolio__description">
             <div className="portfolio__description-overview">
               <h3 className="portfolio__description-title">Project Overview</h3>
               <p className="portfolio__description-para">
-                Fit Club is a platform for people to join the community of their
-                favorite youtube channel.
+                it's a Product Page, you can add the quantity you want and
+                validate it then you can see the total price at the checkout.
               </p>
             </div>
             <div className="portfolio__description-tools">
@@ -112,6 +124,41 @@ const Portfolio = () => {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>Git</li>
+                <li>Github</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="portfolio__content">
+          <div className="portfolio__content-overview">
+            <img src={imgbar} alt="" className="portfolio__img" />
+            <h3 className="portfolio__title">Search Bar</h3>
+            <a
+              href="https://github.com/MohamedCh99/Javascript30Jours/tree/main/06%20-%20TypeAhead"
+              className="portfolio__button"
+              target="_blank"
+              rel="noreferrer">
+              Demo
+              <i className="uil uil-arrow-right portfolio__button-icon"></i>
+            </a>
+          </div>
+          <div className="portfolio__description">
+            <div className="portfolio__description-overview">
+              <h3 className="portfolio__description-title">Project Overview</h3>
+              <p className="portfolio__description-para">
+                Search bar helps you to search the city or state by name and see
+                the population of each city or state searched .
+              </p>
+            </div>
+            <div className="portfolio__description-tools">
+              <h3 className="portfolio__description-title">Tools Used</h3>
+              <ul className="ul">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API</li>
                 <li>Git</li>
                 <li>Github</li>
               </ul>
@@ -119,7 +166,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className={
           Toggle === 1 ? "portfolio__modal active-modal" : "portfolio__modal"
         }>
@@ -261,7 +308,7 @@ const Portfolio = () => {
             Figma/Mockup Design to ReactJs, CSS3, Responsive.
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

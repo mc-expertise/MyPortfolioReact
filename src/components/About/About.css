@@ -39,8 +39,14 @@
   font-size: var(--tiny-font-size);
 }
 .about__description {
-  padding: 0 4rem 0 0;
+  /* padding: 0 2.5rem 0 0; */
   margin-bottom: var(--mb-2-5);
+  line-height: 1.8;
+}
+
+.about__button {
+  display: flex;
+  justify-content: space-evenly;
 }
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
@@ -73,6 +79,13 @@
   }
   .about__description {
     padding: 0;
+  }
+  .about__button {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: auto;
+    width: 203px;
   }
 }
 

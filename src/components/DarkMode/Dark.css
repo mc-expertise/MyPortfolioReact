@@ -1,0 +1,23 @@
+.mode__theme {
+  flex: 0.1;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.header__mode-light {
+  display: none;
+}
+.hidden-icon {
+  display: none;
+}
+.show-icon {
+  display: block;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 768px) {
+  .mode__theme {
+    color: var(--title-color);
+  }
+}

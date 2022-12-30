@@ -9,24 +9,24 @@ const Designer = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">Git</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bxs-badge-check"></i>
-            <div>
               <h3 className="skills__name">Redux</h3>
-              <span className="skills__level">Advanced</span>
+              <span className="skills__level">Few Projects</span>
             </div>
           </div>
 
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">Github</h3>
-              <span className="skills__level">Advanced</span>
+              <h3 className="skills__name">Git</h3>
+              <span className="skills__level">All Projects</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bxs-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Boostrap</h3>
+              <span className="skills__level">Most Projects</span>
             </div>
           </div>
         </div>
@@ -35,8 +35,8 @@ const Designer = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">Resposive</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Responsive</h3>
+              <span className="skills__level">All Projects</span>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const Designer = () => {
             <i class="bx bxs-badge-check"></i>
             <div>
               <h3 className="skills__name">SASS</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Many Projects</span>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ const Designer = () => {
             <i class="bx bxs-badge-check"></i>
             <div>
               <h3 className="skills__name">Jest</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Most Projects</span>
             </div>
           </div>
         </div>

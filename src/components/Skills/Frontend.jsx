@@ -3,14 +3,14 @@ import React from "react";
 const Frontend = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Frontend developer</h3>
+      <h3 className="skills__title">Primary Skills</h3>
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
               <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Advanced</span>
+              <span className="skills__level">Most Projects</span>
             </div>
           </div>
 
@@ -18,7 +18,7 @@ const Frontend = () => {
             <i class="bx bxs-badge-check"></i>
             <div>
               <h3 className="skills__name">CSS</h3>
-              <span className="skills__level">Advanced</span>
+              <span className="skills__level">Most Projects</span>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ const Frontend = () => {
             <i class="bx bxs-badge-check"></i>
             <div>
               <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Advanced</span>
+              <span className="skills__level">Most Projects</span>
             </div>
           </div>
         </div>
@@ -35,24 +35,24 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">Tailwind</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bxs-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Boostrap</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bxs-badge-check"></i>
-            <div>
               <h3 className="skills__name">React</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Many Projects</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bxs-badge-check"></i>
+            <div>
+              <h3 className="skills__name">GitHub</h3>
+              <span className="skills__level">Many Projects</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bxs-badge-check"></i>
+            <div>
+              <h3 className="skills__name">TailwindCss</h3>
+              <span className="skills__level">Most Projects</span>
             </div>
           </div>
         </div>
